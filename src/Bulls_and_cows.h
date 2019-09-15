@@ -10,7 +10,7 @@ using namespace std;
 
 void menu();
 void info();
-void enemy_comp();
-void player();
+void enemy_comp(vector<int> &m);
+void player(vector<int> &n,vector<int> &m);
 
 #endif //BULLS_AND_COWS_BULLS_AND_COWS_H
